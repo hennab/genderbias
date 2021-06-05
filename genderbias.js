@@ -36,8 +36,8 @@ function textChanged() {
 
 	function scoreIt(a,b){ return (100*(a-b)/(a+b)).toFixed(); }
 	var html = "";
-	if(score.male > score.female) html = "Male-biased ("+scoreIt(score.male,score.female)+"%)";
-	if(score.male < score.female) html = "Female-biased ("+scoreIt(score.female,score.male)+"%)";
+	if(score.male > score.female) html = "Agency-biased ("+scoreIt(score.male,score.female)+"%)";
+	if(score.male < score.female) html = "Communion-biased ("+scoreIt(score.female,score.male)+"%)";
 	if(score.male == score.female) html = "Neutral - Congratulations!";
 	document.getElementById('score').innerHTML = html;
 }
