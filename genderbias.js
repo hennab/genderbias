@@ -1,6 +1,6 @@
 // Code derived from Thomas Forth's original at http://tomforth.co.uk/genderbias/
 var maleWords = ["able", "accomplish\\w*"];
-var femaleWords = ["accept\\w*", "accomodat\\w*"];
+var femaleWords = ["accept\\w*", "accommodat\\w*"];
 var examples = [];
 
 function textChanged() {
