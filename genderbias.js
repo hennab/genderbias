@@ -1,6 +1,6 @@
 // Code derived from Thomas Forth's original at http://tomforth.co.uk/genderbias/
 var maleWords = ["able", "accomplish\\w*"];
-var femaleWords = ["hardworking", "conscientious", "depend\\w*", "meticulous", "thorough", "diligen\\w*", "dedicate", "careful", "reliab\\w*", "effort\\w*", "assiduous", "trust\\w*", "responsib\\w*", "methodical", "industrious", "busy", "work\\w*", "persist\\w*", "organiz\\w*", "disciplined", "teach", "instruct", "educat\\w*", "train\\w*", "mentor", "supervis\\w*", "adviser", "counselor", "syllabus", "syllabus", "course\\w*", "class", "service", "colleague", "citizen", "communicate\\w*", "lectur\\w*", "student\\w*", "present\\w*", "rapport"];
+var femaleWords = ["accept\\w*", "accomodat\\w*"];
 var examples = [];
 
 function textChanged() {
