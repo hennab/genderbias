@@ -16,7 +16,7 @@
 
 			<div class="body">
 				<form action="submithandler.php" method="POST">
-					<textarea onkeyup="textChanged()" placeholder="Write or paste your recommendation letter here. Words that are more often associated with women will be added to the female list. Words that are more often associated with men will be added to the male list." id="recommendationLetter" style="width:100%; min-height:100px"></textarea>
+					<textarea onkeyup="textChanged()" placeholder="Write or paste your recommendation letter here. Words that are more often associated with women will be added to the communal list. Words that are more often associated with men will be added to the agency list." id="recommendationLetter" style="width:100%; min-height:100px"></textarea>
 				</form>
 	
 				<div id="score"></div>
@@ -30,10 +30,7 @@
 						<td class="words" id="foundMaleWords"></td>
 					</tr>
 				</table>
-			</div>
-
-			<button class="button" onclick="textChanged()">Force recalculate!</button>
-				
+			</div>				
 		</div>
 	</body>
 </html>
